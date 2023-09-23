@@ -119,6 +119,7 @@
     padding:0 15px;
     text-align: center;
     margin-top:60px;
+    margin-bottom:16px;
 }
 
 
@@ -151,12 +152,254 @@
 .first_section_flex-boxitems{
     min-width: 250px;
     min-height: 200px;
-    background-color: grey;
-    margin-bottom:40px;
+    background-color:#F6F6F6;
+    margin-bottom:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.first_section_mouse_svg{
+    min-width: 40px;
+    min-height: 80px;
+    margin:20px 55px 30px 55px;
+    fill:rgb(214, 212, 212);  
+}
+.first_sectin_boxitems_h5{
+    font-size:16px;
+    font-weight: 600;
+    width:190px;
+    flex-wrap:wrap; 
 }
 
-.first_section_flex-boxitems{
-    display:flex;
+/*  first section ends here */
+
+.second_section_first_div{
+    padding:30px 65px;
+    background-color: #F6F6F6;;
+}
+.second_section_second_div{
+    
+    display: flex;
     flex-direction: column;
     justify-content:center;
+    align-items: center;
+    background-color:white;
+}
+.second_section_register_product_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tick_logo_div{
+    width:100px;
+    height: 100px;
+    margin:50px 0px;
+}
+.tick_logo_svg{
+    width: 100%;
+    height: 100%;
+}
+.register_product_div_pdiv{
+    text-align: center;
+}
+.register_product_h3{
+   font-size: 16px;
+   text-align: center;
+   line-height: 1.2;
+   font-weight: 600;
+}
+.register_product_p{
+    font-family: 'brown-pro-bold',Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding:5px 0px;
+    line-height: 1.5;
+    width: 100%;
+
+}
+.register_product_buttonsdiv{
+    margin:10px 0px;
+}
+.second_section_firstbtndiv{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-width: 200px;
+    min-height: 49px;
+    background-color: rgba(33, 192, 252, 1);
+    /* color:white; */
+}
+.second_section_secondbtndiv{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-width: 200px;
+    min-height: 49px;
+    background-color: white;
+}
+.second_section_btn1_a{
+    color:white;
+    text-decoration: none;
+}
+.second_section_btn2_a{
+    color:rgba(33, 192, 252, 1);
+    outline:1px solid rgba(33, 192, 252, 1);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-width: 200px;
+    min-height: 49px;
+    margin-top:20px;
+}
+
+.second_section_downloads_div{
+    /* margin-top:20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.register_product_p2{
+    padding:5px;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.5;
+   
+}
+
+.second_section_firstbtndiv1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-width: 200px;
+    min-height: 70px;
+    background-color: rgba(33, 192, 252, 1);;
+}
+.second_section_btn1_a2{
+    max-width: 150px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+    text-decoration: none;
+    color:white;
+}
+/* second section ends here */
+
+.third_section_firstdiv{
+    padding:30px 65px;
+    background-color:#8146fe;
+    padding-bottom:50px;
+}
+
+.third_section_firsth3{
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom:.5rem;
+
+}
+.third_section_phonechat_maindiv{
+    background-color:white;
+    padding:20px 0px;
+    /* box-shadow:10px -10px  15px 15px rgba(29, 31, 31, 0.3) */
+}
+.headphone_svg{
+    width: 70px;
+    height: 70px;
+    fill :orange;
+    margin:27px 78px;
+}
+.third_section_phonechat_firstdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.third_sec_phone_h1{
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+.third_section_phone_p1{
+    font-size: 12px;
+    font-weight: 500;
+    margin:10px;
+}
+.third_section_phone_p2{
+    font-size: 12px;
+    font-weight: 500;
+    margin:20px 0px;
+    
+}
+
+.third_section_chat_firstdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 -5px 10px 0px #e3dbdb;
+}
+
+.chat_svg{
+    width: 70px;
+    height: 70px;
+    fill :blue;
+    margin:27px 78px;
+}
+.third_section_chat_p1{
+    font-size: 12px;
+    font-weight: 500;
+    margin:15px 0px;
+    width:100%;
+    text-transform: uppercase;
+}
+.third_section_chat_p2{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin:20px 0px;
+    text-transform: uppercase;
+}
+/* third section ends here */
+.footer_first_div{
+    padding:45px 45px 35px 45px;
+    background-color: #252A2C;
+}
+.footer_first_h3{
+    color:white;
+    margin-bottom:8px;
+}
+.footer_items_container{
+    margin:10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    align-content: space-between;
+    color:white;
+    border-bottom:.1px solid grey;
+}
+.footer_items{
+    display: flex;
+    flex-direction: column;
+    margin:10px 0px;
+   justify-content: center;
+
+}
+.footer_items_span{
+    margin:15px 0px;
+    font-family: 'brown-pro-regular',Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.rights_div{
+    margin-top:45px;
+}
+.rights_span{
+    color:white;
+    font-weight: 200;
 }
