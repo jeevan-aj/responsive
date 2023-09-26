@@ -285,7 +285,8 @@
     .second_section_register_product_div,.second_section_downloads_div{
         /* min-height: 415px; */
         max-width: 435px;
-        min-height: 317px;
+       
+        min-height: 337px;
         height: 100%;
         width: 100%;
         justify-content: start;
@@ -323,14 +324,16 @@
 }
 .register_product_buttonsdiv{
     margin:10px 0px;
-    width:100%;
+    min-width: 150px;
+    max-width: 190px;
 }
 .second_section_firstbtndiv{
     display: flex;
     justify-content:center;
     align-items: center;
-    min-width: 200px;
+    min-width: 180px;
     min-height: 49px;
+    max-width: 200px;
     background-color: rgba(33, 192, 252, 1);
     /* color:white; */
 }
@@ -378,18 +381,19 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    min-width: 200px;
-    min-height: 70px;
+    min-width: 170px;
+    min-height: 40px;
     background-color: rgba(33, 192, 252, 1);
 }
 
 .second_section_btn1_a2{
-    max-width: 150px;
+    max-width: 190px;
     text-align: center;
     line-height: 1.5;
     font-size: 16px;
     text-decoration: none;
     color:white;
+    background-color: rgba(33, 192, 252, 1);
 }
 .register_product_p2{
     padding:5px;
@@ -404,12 +408,14 @@
         display: flex;
         width: 100%;
         justify-content: center;
+        gap:10px;
 
     }
     .second_section_firstbtndiv{
         display: flex;
         justify-content:center;
-        min-width: 178px;
+        min-width: 180px;
+        max-width: 190px;
         min-height: 4px;
         height: 46px;
         background-color: rgba(33, 192, 252, 1);
@@ -421,6 +427,8 @@
         align-items: center;
         min-width: 178px;
         /* max-width: 198px; */
+        min-width: 125px;
+
         min-height: 4px;
         max-height: 62px;
         background-color: white; 
@@ -438,14 +446,14 @@
         display: flex;
         justify-content:center;
         align-items: center;
-        min-width: 2px;
+        min-width: 300px;
         min-height: 7px;
         height: 46px;
         background-color: rgba(33, 192, 252, 1);
     }
     .second_section_btn1_a2{
         max-width: 420px;
-        width:420px;
+        /* width:420px; */
         line-height: 1.5;
         font-size: 16px;
         text-decoration: none;
@@ -469,6 +477,12 @@
 .second_section_btn1_a{
     color:white;
     text-decoration: none;
+}
+@media (min-width:799) and (max-width:836px){
+    .second_section_downloads_div{
+        width: 200px;
+        padding:30px;
+    }
 }
 
 
@@ -608,8 +622,9 @@
    
 /* third section ends here */
 .footer_first_div{
-    padding:45px 45px 35px 45px;
+    padding:65px 65px 35px 65px;
     background-color: #252A2C;
+   
 }
 .footer_first_h3{
     color:white;
@@ -627,12 +642,24 @@
 @media (min-width:789px){
     .footer_items_container{
         flex-direction: row;
-        justify-content: start;
+        justify-content: space-between;
         align-items: start;
         gap:50px;
+        max-width: 1160px;
+        margin:0 auto;
+       
     }
     .third_section_phonechat_firstdiv,.third_section_phonechata_seconddiv{
         padding:0px 10px;
+       
+    }
+    .footer_first_h3{
+        margin:0 auto;
+        max-width: 1160px;
+    }
+    .rights_div{
+        margin:0 auto;
+        max-width: 1160px;
     }
 }
 .footer_items{
@@ -645,8 +672,8 @@
 .footer_items_span{
     margin:15px 0px;
     font-family: 'brown-pro-regular',Helvetica,Arial,sans-serif;
-    font-weight: 200;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .rights_div{
