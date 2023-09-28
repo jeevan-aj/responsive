@@ -1,0 +1,17 @@
+body::before{
+    display: block;
+    content: '';
+    height: 70px;
+
+}
+
+.fourth_section_svg{
+    width: 100%;
+    height: 100%;
+    
+    object-fit: contain;
+}
+.fourth_section_svg2{
+    width:100%;
+    object-fit: contain;
+}
