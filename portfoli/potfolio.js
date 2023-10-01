@@ -12,6 +12,10 @@ function validateemail(){
     }
 }
 
+var form = document.getElementById('contactForm');
+form.addEventListener('submit',function(event){
+    event.preventDefault();
+});
 function validate(){
     var username = document.getElementById("name");
     var email = document.getElementById("email");
@@ -29,8 +33,14 @@ function validate(){
         label.style.display = "block";
         
     }
+    else if(isNaN(phone.value)){
+        alert('checkyour number please');
+    }
     else if (!validateemail()){
-        //
+        email.style.border= "3px solid red";
+    }
+    else if(message.value.length>10){
+        alert("max length 5 ");
     }
     
     
